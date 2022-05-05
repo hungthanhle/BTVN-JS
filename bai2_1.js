@@ -1,7 +1,6 @@
 function filterNumbersFromArray(array) {
     return array.filter((arr) => {
         if(Number.isFinite(arr)){
-            console.log(arr);
             return arr;
         }
     });
